@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "TorstenBergmann 7/4/2017 21:40",
+	"super" : "TestCase",
+	"category" : "Alpine-Tests-Core-Web-Base",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "AlpineTest",
+	"type" : "normal"
+}

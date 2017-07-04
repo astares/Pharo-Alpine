@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "TorstenBergmann 7/4/2017 21:35",
+	"super" : "Object",
+	"category" : "Alpine-Core-Web-Base",
+	"classinstvars" : [
+		"servers"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "Alpine",
+	"type" : "normal"
+}
