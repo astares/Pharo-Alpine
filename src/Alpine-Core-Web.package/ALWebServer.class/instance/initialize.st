@@ -2,4 +2,5 @@ accessing
 initialize
 
 	super initialize.
-	teapot := Teapot configure: {  }
+	server := ZnServer defaultServerClass new.
+	server delegate: ALCompositeRequestRouter new.	

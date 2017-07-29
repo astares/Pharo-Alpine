@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "TorstenBergmann 7/29/2017 08:45",
+	"super" : "Object",
+	"category" : "Alpine-Core-Web-Routing",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ALRequestRouter",
+	"type" : "normal"
+}

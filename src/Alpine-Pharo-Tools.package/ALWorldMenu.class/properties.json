@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "TorstenBergmann 7/29/2017 09:00",
+	"super" : "Object",
+	"category" : "Alpine-Pharo-Tools-Desktop",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ALWorldMenu",
+	"type" : "normal"
+}

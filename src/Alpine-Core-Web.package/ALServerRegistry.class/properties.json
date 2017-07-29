@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "TorstenBergmann 7/29/2017 09:20",
+	"super" : "Object",
+	"category" : "Alpine-Core-Web-Server-Management",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"servers"
+	],
+	"name" : "ALServerRegistry",
+	"type" : "normal"
+}

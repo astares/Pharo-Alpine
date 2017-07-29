@@ -3,7 +3,7 @@
 	"super" : "Object",
 	"category" : "Alpine-Core-Web-Base",
 	"classinstvars" : [
-		"servers"
+		"serverRegistry"
 	],
 	"pools" : [ ],
 	"classvars" : [ ],

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "TorstenBergmann 7/14/2017 14:02",
+	"super" : "Object",
+	"category" : "Alpine-Pharo-Tools-Utilities",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"IconCache"
+	],
+	"instvars" : [ ],
+	"name" : "ALIconProvider",
+	"type" : "normal"
+}
