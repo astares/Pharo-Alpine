@@ -6,6 +6,7 @@ worldMenuOn: aBuilder
 	(aBuilder item: 'Alpine')		
 		icon: self iconProvider serverIcon;
 		order: 0.5.
+	aBuilder withSeparatorAfter.	
 	
 	(aBuilder item: 'Create server')
 		action: [ self createServer ];
@@ -17,7 +18,7 @@ worldMenuOn: aBuilder
 	Alpine servers	do: [:each |
 			uniqueMenuID := ('Alpine', each name) asSymbol.
 			(aBuilder item: uniqueMenuID)
-				label: each name;			
+				label: each name, ' ', each port asString;			
 				parent: #'Alpine'.
 			(aBuilder item: 'Start')	
 				icon: self iconProvider serverStartIcon;			 		

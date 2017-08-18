@@ -1,4 +1,4 @@
 accessing
 port: aPort
 
-	teapot server optionAt: #port put: aPort
+	server optionAt: #port put: aPort
