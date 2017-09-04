@@ -1,0 +1,4 @@
+running
+start
+
+	server start

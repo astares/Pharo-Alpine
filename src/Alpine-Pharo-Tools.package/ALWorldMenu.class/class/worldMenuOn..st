@@ -22,12 +22,15 @@ worldMenuOn: aBuilder
 				parent: #'Alpine'.
 			(aBuilder item: 'Start')	
 				icon: self iconProvider serverStartIcon;			 		
+				action: [ self startServer: each ];					
 				parent: uniqueMenuID.	
 			(aBuilder item: 'Stop')	
-				icon: self iconProvider serverStopIcon;			 		
+				icon: self iconProvider serverStopIcon;	
+				action: [ self stopServer: each ];						 		
 				parent: uniqueMenuID.
 			(aBuilder item: 'Browse')	
 				icon: self iconProvider serverIcon;			 		
+				action: [ self browseServer: each ];								
 				parent: uniqueMenuID.	
 						
 	]
